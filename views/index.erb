@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <% @columns.each do |column| %>
+      <th><%= column %></th>
+    <% end %>
+  </tr>
+  <% @resources.each do |resource| %>
+    <tr>
+      <% @columns.each do |column| %>
+        <td><%= resource[column] %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
