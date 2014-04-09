@@ -19,17 +19,18 @@ Architecture
 
 
 Data source:
-  will be pulled in from wherever we can. Right now this seems like either NextGen or some spreadsheet.
-  Will be done nightly (rake/cron) 
-  (will be using ActiveRecord or raw sql for db + ruby has CSV lib for spreadsheets)
+will be pulled in from wherever we can. Right now this seems like either NextGen or some spreadsheet.
+Will be done nightly (rake/cron) 
+(Cleaning Script will be using ActiveRecord or raw sql for db + ruby has CSV lib for spreadsheets)
+
 
 Data architecture:
 
 
 Pages:
-  index       - inventory list
-  admin index - editable inventory list
-  admin config- config for user
+-index       - inventory list
+-admin index - editable inventory list
+-admin config- config for user
 
 
 
